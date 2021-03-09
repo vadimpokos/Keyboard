@@ -1,0 +1,63 @@
+.el {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  margin: 2px;
+}
+
+.el:focus {
+  outline: none;
+}
+
+.buttons {
+  width: 30px;
+  z-index: 1;
+}
+
+.capsed {
+  text-transform: uppercase;
+}
+
+.flx {
+  display: grid;
+  grid-template-columns: repeat(16, 40px);
+}
+
+.enabled {
+  background-color: slategrey;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.space-but {
+  grid-column: 3 / 12;
+}
+
+.language {
+  grid-column: 1 / span 2;
+}
+
+.back-space {
+  grid-column: 14 / span 3;
+}
+
+.caps-lock {
+  grid-column: 1 / span 2;
+  padding: 1px 1px;
+}
+
+.enter-but {
+  grid-column: 14 / span 2;
+}
+
+.shift-but {
+  grid-column: 1 / span 2;
+}
+
+.up {
+  grid-column: 13 / 14;
+}
